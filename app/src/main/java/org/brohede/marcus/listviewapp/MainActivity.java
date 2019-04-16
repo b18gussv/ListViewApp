@@ -15,7 +15,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private String[] mountainNames = {"Matterhorn","Mont Blanc","Denali", "Kebnekaise","K2","Mount Everest","Kangchenjunga"};
     private String[] mountainLocations = {"Alps","Alps","Alaska"};
-    private int[] mountainHeights ={4478,4808,6190,};
+    private int[] mountainHeights ={4478,4808,6190};
     // Create ArrayLists from the raw data above and use these lists when populating your ListView.
     private ArrayList<String> listData=new ArrayList<>(Arrays.asList(mountainNames));
     private ArrayList<Mountain> mountainArrayList=new ArrayList<>();
